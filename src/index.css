@@ -4,6 +4,6 @@
     box-sizing: border-box;
 }
 
-.app {
-    background-color: red;
+body {
+    height: 100vh;
 }
