@@ -1,3 +1,4 @@
+import Main from "./components/Main/Main";
 import Navbar from "./components/Navbar/Navbar"
 import Sidebar from "./components/Sidebar/Sidebar";
 
@@ -16,13 +17,17 @@ const App = () => {
             name: "Sardor",
             lastname: "Ayupov"
         },
+        {
+            id: 3,
+            name: "Ikromjon",
+            lastname: "Aripov"
+        },
     ]
     return (
         <div className="app">
             <Navbar name="Abror" lastname="Muxtorov" Users={users} function={myFunc} />
-            <Sidebar />
-            <button onClick={myFunc}>Button</button>
-            <h1>salom dunyo</h1>
+            {/* <Sidebar /> */}
+            <Main data={users} />
         </div>
     )
 }
