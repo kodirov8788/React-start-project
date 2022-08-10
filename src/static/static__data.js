@@ -9,7 +9,7 @@ export const products = [
         productPrice: 120,
         productDetail: "About About About About",
         productImage: Image1,
-        prodcutWeight: 140
+        productWeight: 140
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ export const products = [
         productPrice: 190,
         productDetail: "About About About About",
         productImage: Image2,
-        prodcutWeight: 175
+        productWeight: 175
     },
     {
         id: 3,
@@ -25,6 +25,6 @@ export const products = [
         productPrice: 210,
         productDetail: "About About About About",
         productImage: Image3,
-        prodcutWeight: 190
+        productWeight: 190
     }
 ]

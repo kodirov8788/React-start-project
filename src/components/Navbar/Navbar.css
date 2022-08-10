@@ -41,3 +41,8 @@ li:nth-child(1) {
     list-style: none;
 
 }
+
+.rang {
+    background-color: dodgerblue;
+    color: crimson;
+}
