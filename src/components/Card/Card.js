@@ -9,7 +9,7 @@ function Card({ product }) {
             <Link style={{ color: "red" }} to={`product/${product.id}`}>
                 <h1>{product.productName}</h1>
             </Link>
-            <h1>{product.productPrice}</h1>
+            <h1>{product.productPrice}$</h1>
             <img src={product.productImage} width="300px" alt="" />
         </div>
     )

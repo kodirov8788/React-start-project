@@ -7,8 +7,7 @@ import Home from "./pages/Home/Home"
 import Blog from "./pages/Blog/Blog"
 import Contact from "./pages/Contact/Contact"
 import About from "./pages/About/About"
-import Navbar from './components/Navbar';
-import Logo from "./components/Navbar"
+import Navbar from './components/Navbar/Navbar';
 import SinglePage from "./pages/SinglePage/Single"
 
 

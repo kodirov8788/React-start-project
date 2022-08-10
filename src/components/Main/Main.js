@@ -6,7 +6,7 @@ import Card from "../Card/Card"
 function Main({ products }) {
     console.log(products);
     return (
-        <div >
+        <div className='main'>
             {products.map(product => (
                 <Card key={product.id} product={product} />
             ))
