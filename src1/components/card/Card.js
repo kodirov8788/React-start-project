@@ -2,7 +2,7 @@ import React from 'react'
 import "./Card.css"
 
 const Card = (props) => {
-    console.log("card >>>", props);
+    // console.log("card >>>", props);
 
 
     return (
