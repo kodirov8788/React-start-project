@@ -14,3 +14,26 @@
     width: 100%;
     height: 550px;
 }
+
+
+
+.main_effect {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #00000095;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_effect h1 {
+    width: 200px;
+    height: 50px;
+    border: 2px solid #000;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
