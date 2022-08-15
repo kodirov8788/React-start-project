@@ -26,16 +26,15 @@ function Main({ products }) {
     //     }
 
     //     myFunc()
-    // }, [Time])
+    // }, [])
 
     useEffect(() => {
         const fetchData = async () => {
             await axios.get("https://jsonplaceholder.typicode.com/users")
-                .then(res => console.log(res.data))
+                .then(data => console.log(data.data))
                 .catch(error => console.log(error))
         }
         fetchData()
-
     }, [])
 
 
